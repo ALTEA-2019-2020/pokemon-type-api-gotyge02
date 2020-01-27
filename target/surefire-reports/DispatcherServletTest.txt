@@ -1,0 +1,26 @@
+-------------------------------------------------------------------------------
+Test set: DispatcherServletTest
+-------------------------------------------------------------------------------
+Tests run: 10, Failures: 1, Errors: 1, Skipped: 0, Time elapsed: 0.803 s <<< FAILURE! - in DispatcherServletTest
+doGet_shouldReturnAResult_whenMethodWithParametersSucceeds  Time elapsed: 0.013 s  <<< ERROR!
+java.lang.IllegalArgumentException: wrong number of arguments
+	at DispatcherServletTest.doGet_shouldReturnAResult_whenMethodWithParametersSucceeds(DispatcherServletTest.java:128)
+
+doGet_shouldReturn500WithMessage_whenMethodThrowsException  Time elapsed: 0.057 s  <<< FAILURE!
+org.mockito.exceptions.verification.ArgumentsAreDifferent: 
+
+Argument(s) are different! Wanted:
+httpServletResponse.sendError(
+    500,
+    "exception when calling method someThrowingMethod : some exception message"
+);
+-> at DispatcherServletTest.doGet_shouldReturn500WithMessage_whenMethodThrowsException(DispatcherServletTest.java:92)
+Actual invocation has different arguments:
+httpServletResponse.sendError(
+    500,
+    "exception when calling method someThrowingMethod : null"
+);
+-> at DispatcherServlet.doGet(DispatcherServlet.java:37)
+
+	at DispatcherServletTest.doGet_shouldReturn500WithMessage_whenMethodThrowsException(DispatcherServletTest.java:92)
+
