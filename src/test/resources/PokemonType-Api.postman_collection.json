@@ -29,7 +29,13 @@
 			"name": "Get Bulbizarre FR",
 			"request": {
 				"method": "GET",
-				"header": [],
+				"header": [
+					{
+						"key": "Accept-Language",
+						"value": "fr",
+						"type": "text"
+					}
+				],
 				"url": {
 					"raw": "http://localhost:8080/pokemon-types/1",
 					"protocol": "http",
