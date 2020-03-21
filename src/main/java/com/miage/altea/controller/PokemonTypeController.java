@@ -1,7 +1,7 @@
 package com.miage.altea.controller;
 
 import com.miage.altea.bo.PokemonType;
-import com.miage.altea.service.PokemonTypeServiceI;
+import com.miage.altea.service.PokemonTypeService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
@@ -10,10 +10,10 @@ import java.util.List;
 @RestController
 @RequestMapping("/pokemon-types")
 class PokemonTypeController {
-    private PokemonTypeServiceI pokemonTypeService;
+    private PokemonTypeService pokemonTypeService;
 
     @Autowired
-    public PokemonTypeController(PokemonTypeServiceI pokemonTypeService) {
+    public PokemonTypeController(PokemonTypeService pokemonTypeService) {
         this.pokemonTypeService = pokemonTypeService;
     }
 

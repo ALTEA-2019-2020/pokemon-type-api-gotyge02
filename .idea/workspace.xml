@@ -1,7 +1,59 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="59e5bfed-e558-4181-bc5b-f6383b1f6fc8" name="Default Changelist" comment="" />
+    <list default="true" id="59e5bfed-e558-4181-bc5b-f6383b1f6fc8" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_guava_guava_20_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_springfox_springfox_core_2_9_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_springfox_springfox_schema_2_9_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_springfox_springfox_spi_2_9_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_springfox_springfox_spring_web_2_9_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_springfox_springfox_swagger2_2_9_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_springfox_springfox_swagger_common_2_9_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_springfox_springfox_swagger_ui_2_9_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_swagger_swagger_annotations_1_5_20.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_swagger_swagger_models_1_5_20.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mapstruct_mapstruct_1_2_0_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_plugin_spring_plugin_core_1_2_0_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_plugin_spring_plugin_metadata_1_2_0_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/miage/altea/bo/Translation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/miage/altea/repository/TranslationRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/miage/altea/repository/TranslationRepositoryImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/miage/altea/repository/TranslationRepositoryImplTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/miage/altea/service/PokemonTypeServiceImplTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/system.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/artifacts/handcrafting_war_exploded.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/handcrafting_war_exploded.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/handcrafting.iml" beforeDir="false" afterPath="$PROJECT_DIR$/handcrafting.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/miage/altea/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/miage/altea/Application.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/miage/altea/controller/PokemonTypeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/miage/altea/controller/PokemonTypeController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/miage/altea/service/PokemonTypeService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/miage/altea/service/PokemonTypeServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/miage/altea/service/PokemonTypeServiceI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/miage/altea/service/PokemonTypeService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/miage/altea/controller/PokemonTypeControllerIntegrationTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/miage/altea/controller/PokemonTypeControllerIntegrationTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/miage/altea/controller/PokemonTypeControllerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/miage/altea/controller/PokemonTypeControllerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/miage/altea/service/PokemonTypeServiceTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/miage/altea/Application.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/miage/altea/Application.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/miage/altea/controller/PokemonTypeController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/miage/altea/controller/PokemonTypeController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/miage/altea/service/PokemonTypeService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/miage/altea/service/PokemonTypeService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/miage/altea/service/PokemonTypeServiceI.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/handcrafting-0.1.0.war" beforeDir="false" afterPath="$PROJECT_DIR$/target/handcrafting-0.1.0.war" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-com.miage.altea.controller.PokemonTypeControllerIntegrationTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-com.miage.altea.controller.PokemonTypeControllerIntegrationTest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-com.miage.altea.controller.PokemonTypeControllerTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-com.miage.altea.controller.PokemonTypeControllerTest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-com.miage.altea.repository.PokemonTypeRepositoryTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-com.miage.altea.repository.PokemonTypeRepositoryTest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-com.miage.altea.service.PokemonTypeServiceImplTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-com.miage.altea.service.PokemonTypeServiceImplTest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/com.miage.altea.controller.PokemonTypeControllerIntegrationTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/com.miage.altea.controller.PokemonTypeControllerIntegrationTest.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/com.miage.altea.controller.PokemonTypeControllerTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/com.miage.altea.controller.PokemonTypeControllerTest.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/com.miage.altea.repository.PokemonTypeRepositoryTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/com.miage.altea.repository.PokemonTypeRepositoryTest.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/com.miage.altea.service.PokemonTypeServiceImplTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/com.miage.altea.service.PokemonTypeServiceImplTest.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/miage/altea/controller/PokemonTypeControllerIntegrationTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/miage/altea/controller/PokemonTypeControllerIntegrationTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/miage/altea/controller/PokemonTypeControllerTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/miage/altea/controller/PokemonTypeControllerTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/miage/altea/service/PokemonTypeServiceImplTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/miage/altea/service/PokemonTypeServiceImplTest.class" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -15,6 +67,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="LogFilters">
     <option name="FILTER_ERRORS" value="false" />
     <option name="FILTER_WARNINGS" value="false" />
@@ -23,17 +78,23 @@
     <option name="CUSTOM_FILTER" />
   </component>
   <component name="ProjectId" id="1WKo6DBWFqDeLQdl4fgoSzdibS1" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/src/test/java/com/miage/altea" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../3.Spring/pokemon-type-api-adrien1251-master" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
@@ -250,6 +311,13 @@
       <workItem from="1578907473515" duration="1138000" />
       <workItem from="1579500200408" duration="12490000" />
       <workItem from="1580067818106" duration="5754000" />
+      <workItem from="1580717123597" duration="1726000" />
+      <workItem from="1581318170603" duration="8000" />
+      <workItem from="1581318219692" duration="50000" />
+      <workItem from="1581323082967" duration="7274000" />
+      <workItem from="1583141214416" duration="129000" />
+      <workItem from="1583745798587" duration="33000" />
+      <workItem from="1584816166235" duration="3748000" />
     </task>
     <servers />
   </component>
@@ -273,63 +341,83 @@
       <screen x="0" y="1080" width="1920" height="1080" />
     </state>
     <state x="418" y="1278" width="1084" height="724" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.1080.1920.1080/67.0.1853.1080@0.1080.1920.1080" timestamp="1578907718265" />
-    <state x="767" y="208" width="374" height="592" key="#com.intellij.ide.util.MemberChooser" timestamp="1580109510761">
-      <screen x="67" y="0" width="1853" height="2160" />
+    <state x="2645" y="104" width="374" height="575" key="#com.intellij.ide.util.MemberChooser" timestamp="1584816413928">
+      <screen x="1920" y="0" width="1920" height="1080" />
     </state>
+    <state x="767" y="104" width="374" height="575" key="#com.intellij.ide.util.MemberChooser/0.1080.1920.1080/67.0.1853.1080@67.0.1853.1080" timestamp="1581324705922" />
+    <state x="2645" y="104" key="#com.intellij.ide.util.MemberChooser/55.27.1865.1053/3840.288.1920.1080/1920.0.1920.1080@1920.0.1920.1080" timestamp="1584816413928" />
     <state x="767" y="208" width="374" height="592" key="#com.intellij.ide.util.MemberChooser/67.0.1853.2160@67.0.1853.2160" timestamp="1580109510761" />
     <state x="767" y="128" key="#com.intellij.ide.util.MemberChooser/67.27.1853.1053@67.27.1853.1053" timestamp="1580105388562" />
-    <state x="226" y="27" width="587" height="1053" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1580105553951">
-      <screen x="67" y="27" width="1853" height="1053" />
+    <state x="2085" y="0" width="587" height="1053" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1584819079640">
+      <screen x="1920" y="0" width="1920" height="1080" />
     </state>
+    <state x="2085" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/55.27.1865.1053/3840.288.1920.1080/1920.0.1920.1080@1920.0.1920.1080" timestamp="1584819079640" />
     <state x="226" y="27" width="587" height="1053" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/67.27.1853.1053@67.27.1853.1053" timestamp="1580105553951" />
     <state x="263" y="301" width="524" height="502" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1580105701963">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
     <state x="263" y="301" width="524" height="502" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/67.27.1853.1053@67.27.1853.1053" timestamp="1580105701963" />
-    <state x="835" y="6" width="424" height="484" key="FileChooserDialogImpl" timestamp="1580110423752">
-      <screen x="67" y="0" width="1853" height="2160" />
+    <state x="835" y="30" width="424" height="484" key="FileChooserDialogImpl" timestamp="1583745830324">
+      <screen x="67" y="27" width="1853" height="1053" />
     </state>
     <state x="738" y="1363" width="424" height="513" key="FileChooserDialogImpl/0.1080.1920.1080/67.0.1853.1080@0.1080.1920.1080" timestamp="1578907701558" />
+    <state x="835" y="3" key="FileChooserDialogImpl/0.1080.1920.1080/67.0.1853.1080@67.0.1853.1080" timestamp="1581318273845" />
     <state x="835" y="6" width="424" height="484" key="FileChooserDialogImpl/67.0.1853.2160@67.0.1853.2160" timestamp="1580110423752" />
-    <state x="835" y="30" key="FileChooserDialogImpl/67.27.1853.1053@67.27.1853.1053" timestamp="1580068669663" />
-    <state width="1807" height="278" key="GridCell.Tab.0.bottom" timestamp="1580110302044">
-      <screen x="67" y="0" width="1853" height="2160" />
+    <state x="835" y="30" width="424" height="484" key="FileChooserDialogImpl/67.27.1853.1053@67.27.1853.1053" timestamp="1583745830324" />
+    <state width="1874" height="287" key="GridCell.Tab.0.bottom" timestamp="1584819931340">
+      <screen x="1920" y="0" width="1920" height="1080" />
     </state>
+    <state width="1611" height="227" key="GridCell.Tab.0.bottom/0.1080.1920.1080/67.27.1853.1053@67.27.1853.1053" timestamp="1580879681833" />
+    <state width="1874" height="287" key="GridCell.Tab.0.bottom/55.27.1865.1053/3840.288.1920.1080/1920.0.1920.1080@1920.0.1920.1080" timestamp="1584819931340" />
     <state width="1807" height="278" key="GridCell.Tab.0.bottom/67.0.1853.2160@67.0.1853.2160" timestamp="1580110302044" />
     <state width="1244" height="278" key="GridCell.Tab.0.bottom/67.27.1853.1053@67.27.1853.1053" timestamp="1579500355100" />
-    <state width="1807" height="278" key="GridCell.Tab.0.center" timestamp="1580110302038">
-      <screen x="67" y="0" width="1853" height="2160" />
+    <state width="1874" height="287" key="GridCell.Tab.0.center" timestamp="1584819931340">
+      <screen x="1920" y="0" width="1920" height="1080" />
     </state>
+    <state width="1611" height="227" key="GridCell.Tab.0.center/0.1080.1920.1080/67.27.1853.1053@67.27.1853.1053" timestamp="1580879681833" />
+    <state width="1874" height="287" key="GridCell.Tab.0.center/55.27.1865.1053/3840.288.1920.1080/1920.0.1920.1080@1920.0.1920.1080" timestamp="1584819931340" />
     <state width="1807" height="278" key="GridCell.Tab.0.center/67.0.1853.2160@67.0.1853.2160" timestamp="1580110302038" />
     <state width="1244" height="278" key="GridCell.Tab.0.center/67.27.1853.1053@67.27.1853.1053" timestamp="1579500355099" />
-    <state width="1807" height="278" key="GridCell.Tab.0.left" timestamp="1580110302036">
-      <screen x="67" y="0" width="1853" height="2160" />
+    <state width="1874" height="287" key="GridCell.Tab.0.left" timestamp="1584819931340">
+      <screen x="1920" y="0" width="1920" height="1080" />
     </state>
+    <state width="1611" height="227" key="GridCell.Tab.0.left/0.1080.1920.1080/67.27.1853.1053@67.27.1853.1053" timestamp="1580879681833" />
+    <state width="1874" height="287" key="GridCell.Tab.0.left/55.27.1865.1053/3840.288.1920.1080/1920.0.1920.1080@1920.0.1920.1080" timestamp="1584819931340" />
     <state width="1807" height="278" key="GridCell.Tab.0.left/67.0.1853.2160@67.0.1853.2160" timestamp="1580110302036" />
     <state width="1244" height="278" key="GridCell.Tab.0.left/67.27.1853.1053@67.27.1853.1053" timestamp="1579500355098" />
-    <state width="1807" height="278" key="GridCell.Tab.0.right" timestamp="1580110302039">
-      <screen x="67" y="0" width="1853" height="2160" />
+    <state width="1874" height="287" key="GridCell.Tab.0.right" timestamp="1584819931340">
+      <screen x="1920" y="0" width="1920" height="1080" />
     </state>
+    <state width="1611" height="227" key="GridCell.Tab.0.right/0.1080.1920.1080/67.27.1853.1053@67.27.1853.1053" timestamp="1580879681833" />
+    <state width="1874" height="287" key="GridCell.Tab.0.right/55.27.1865.1053/3840.288.1920.1080/1920.0.1920.1080@1920.0.1920.1080" timestamp="1584819931340" />
     <state width="1807" height="278" key="GridCell.Tab.0.right/67.0.1853.2160@67.0.1853.2160" timestamp="1580110302039" />
     <state width="1244" height="278" key="GridCell.Tab.0.right/67.27.1853.1053@67.27.1853.1053" timestamp="1579500355100" />
-    <state width="1807" height="278" key="GridCell.Tab.1.bottom" timestamp="1580110302046">
-      <screen x="67" y="0" width="1853" height="2160" />
+    <state width="1874" height="287" key="GridCell.Tab.1.bottom" timestamp="1584819931340">
+      <screen x="1920" y="0" width="1920" height="1080" />
     </state>
+    <state width="1611" height="227" key="GridCell.Tab.1.bottom/0.1080.1920.1080/67.27.1853.1053@67.27.1853.1053" timestamp="1580879681834" />
+    <state width="1874" height="287" key="GridCell.Tab.1.bottom/55.27.1865.1053/3840.288.1920.1080/1920.0.1920.1080@1920.0.1920.1080" timestamp="1584819931340" />
     <state width="1807" height="278" key="GridCell.Tab.1.bottom/67.0.1853.2160@67.0.1853.2160" timestamp="1580110302046" />
     <state width="1244" height="278" key="GridCell.Tab.1.bottom/67.27.1853.1053@67.27.1853.1053" timestamp="1579500355101" />
-    <state width="1807" height="278" key="GridCell.Tab.1.center" timestamp="1580110302045">
-      <screen x="67" y="0" width="1853" height="2160" />
+    <state width="1874" height="287" key="GridCell.Tab.1.center" timestamp="1584819931340">
+      <screen x="1920" y="0" width="1920" height="1080" />
     </state>
+    <state width="1611" height="227" key="GridCell.Tab.1.center/0.1080.1920.1080/67.27.1853.1053@67.27.1853.1053" timestamp="1580879681834" />
+    <state width="1874" height="287" key="GridCell.Tab.1.center/55.27.1865.1053/3840.288.1920.1080/1920.0.1920.1080@1920.0.1920.1080" timestamp="1584819931340" />
     <state width="1807" height="278" key="GridCell.Tab.1.center/67.0.1853.2160@67.0.1853.2160" timestamp="1580110302045" />
     <state width="1244" height="278" key="GridCell.Tab.1.center/67.27.1853.1053@67.27.1853.1053" timestamp="1579500355101" />
-    <state width="1807" height="278" key="GridCell.Tab.1.left" timestamp="1580110302044">
-      <screen x="67" y="0" width="1853" height="2160" />
+    <state width="1874" height="287" key="GridCell.Tab.1.left" timestamp="1584819931340">
+      <screen x="1920" y="0" width="1920" height="1080" />
     </state>
+    <state width="1611" height="227" key="GridCell.Tab.1.left/0.1080.1920.1080/67.27.1853.1053@67.27.1853.1053" timestamp="1580879681834" />
+    <state width="1874" height="287" key="GridCell.Tab.1.left/55.27.1865.1053/3840.288.1920.1080/1920.0.1920.1080@1920.0.1920.1080" timestamp="1584819931340" />
     <state width="1807" height="278" key="GridCell.Tab.1.left/67.0.1853.2160@67.0.1853.2160" timestamp="1580110302044" />
     <state width="1244" height="278" key="GridCell.Tab.1.left/67.27.1853.1053@67.27.1853.1053" timestamp="1579500355100" />
-    <state width="1807" height="278" key="GridCell.Tab.1.right" timestamp="1580110302046">
-      <screen x="67" y="0" width="1853" height="2160" />
+    <state width="1874" height="287" key="GridCell.Tab.1.right" timestamp="1584819931340">
+      <screen x="1920" y="0" width="1920" height="1080" />
     </state>
+    <state width="1611" height="227" key="GridCell.Tab.1.right/0.1080.1920.1080/67.27.1853.1053@67.27.1853.1053" timestamp="1580879681834" />
+    <state width="1874" height="287" key="GridCell.Tab.1.right/55.27.1865.1053/3840.288.1920.1080/1920.0.1920.1080@1920.0.1920.1080" timestamp="1584819931340" />
     <state width="1807" height="278" key="GridCell.Tab.1.right/67.0.1853.2160@67.0.1853.2160" timestamp="1580110302046" />
     <state width="1244" height="278" key="GridCell.Tab.1.right/67.27.1853.1053@67.27.1853.1053" timestamp="1579500355101" />
     <state width="1290" height="259" key="GridCell.Tab.2.bottom" timestamp="1579521502453">
@@ -365,11 +453,12 @@
       <screen x="67" y="0" width="1853" height="2160" />
     </state>
     <state x="731" y="284" width="446" height="440" key="chooseDestDirectoryDialog/67.0.1853.2160@67.0.1853.2160" timestamp="1579510290638" />
-    <state x="423" y="442" key="com.intellij.ide.util.TipDialog" timestamp="1580067854569">
+    <state x="423" y="442" width="725" height="420" key="com.intellij.ide.util.TipDialog" timestamp="1583141219353">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
     <state x="616" y="1447" key="com.intellij.ide.util.TipDialog/0.1080.1920.1080/67.0.1853.1080@0.1080.1920.1080" timestamp="1578907476956" />
-    <state x="423" y="442" key="com.intellij.ide.util.TipDialog/67.27.1853.1053@67.27.1853.1053" timestamp="1580067854569" />
+    <state x="456" y="330" width="725" height="420" key="com.intellij.ide.util.TipDialog/0.1080.1920.1080/67.0.1853.1080@67.0.1853.1080" timestamp="1581318227287" />
+    <state x="423" y="442" key="com.intellij.ide.util.TipDialog/67.27.1853.1053@67.27.1853.1053" timestamp="1583141219353" />
     <state x="655" y="132" width="598" height="743" key="refactoring.ChangeSignatureDialog" timestamp="1579511333765">
       <screen x="67" y="0" width="1853" height="2160" />
     </state>

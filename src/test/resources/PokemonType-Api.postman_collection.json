@@ -1,0 +1,50 @@
+{
+	"info": {
+		"_postman_id": "dbd4a3e7-3947-49f6-bd72-aad406d87e1e",
+		"name": "PokemonType-Api",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Get Bulbizarre EN",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/pokemon-types/1",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"pokemon-types",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get Bulbizarre FR",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/pokemon-types/1",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"pokemon-types",
+						"1"
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"protocolProfileBehavior": {}
+}

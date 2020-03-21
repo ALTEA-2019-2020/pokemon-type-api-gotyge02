@@ -1,0 +1,38 @@
+-------------------------------------------------------------------------------
+Test set: com.miage.altea.service.PokemonTypeServiceTest
+-------------------------------------------------------------------------------
+Tests run: 6, Failures: 2, Errors: 2, Skipped: 0, Time elapsed: 0.063 s <<< FAILURE! - in com.miage.altea.service.PokemonTypeServiceTest
+pokemonNames_shouldBeTranslated_usingLocaleResolver  Time elapsed: 0.031 s  <<< FAILURE!
+org.mockito.exceptions.verification.WantedButNotInvoked: 
+
+Wanted but not invoked:
+translationRepository.getPokemonName(25, fr);
+-> at com.miage.altea.service.PokemonTypeServiceTest.pokemonNames_shouldBeTranslated_usingLocaleResolver(PokemonTypeServiceTest.java:67)
+Actually, there were zero interactions with this mock.
+
+	at com.miage.altea.service.PokemonTypeServiceTest.pokemonNames_shouldBeTranslated_usingLocaleResolver(PokemonTypeServiceTest.java:67)
+
+pokemonTypeRepository_shouldBeAutowired_withSpring  Time elapsed: 0.015 s  <<< ERROR!
+org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'pokemonTypeService': Unsatisfied dependency expressed through constructor parameter 1; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'translationRepository': Instantiation of bean failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.miage.altea.repository.TranslationRepository]: Specified class is an interface
+	at com.miage.altea.service.PokemonTypeServiceTest.pokemonTypeRepository_shouldBeAutowired_withSpring(PokemonTypeServiceTest.java:49)
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'translationRepository': Instantiation of bean failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.miage.altea.repository.TranslationRepository]: Specified class is an interface
+	at com.miage.altea.service.PokemonTypeServiceTest.pokemonTypeRepository_shouldBeAutowired_withSpring(PokemonTypeServiceTest.java:49)
+Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.miage.altea.repository.TranslationRepository]: Specified class is an interface
+	at com.miage.altea.service.PokemonTypeServiceTest.pokemonTypeRepository_shouldBeAutowired_withSpring(PokemonTypeServiceTest.java:49)
+
+allPokemonNames_shouldBeTranslated_usingLocaleResolver  Time elapsed: 0.001 s  <<< FAILURE!
+org.mockito.exceptions.verification.WantedButNotInvoked: 
+
+Wanted but not invoked:
+translationRepository.getPokemonName(25, fr);
+-> at com.miage.altea.service.PokemonTypeServiceTest.allPokemonNames_shouldBeTranslated_usingLocaleResolver(PokemonTypeServiceTest.java:89)
+Actually, there were zero interactions with this mock.
+
+	at com.miage.altea.service.PokemonTypeServiceTest.allPokemonNames_shouldBeTranslated_usingLocaleResolver(PokemonTypeServiceTest.java:89)
+
+applicationContext_shouldLoadPokemonTypeService  Time elapsed: 0.012 s  <<< ERROR!
+org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'pokemonTypeService' defined in file [/home/gotyge/Documents/Dropbox/Université/M2 MIAGE/ALTEA/moi/pokemon-type-api-gotyge02/target/classes/com/miage/altea/service/PokemonTypeService.class]: Unsatisfied dependency expressed through constructor parameter 0; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.miage.altea.repository.PokemonTypeRepository' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {}
+	at com.miage.altea.service.PokemonTypeServiceTest.applicationContext_shouldLoadPokemonTypeService(PokemonTypeServiceTest.java:21)
+Caused by: org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.miage.altea.repository.PokemonTypeRepository' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {}
+	at com.miage.altea.service.PokemonTypeServiceTest.applicationContext_shouldLoadPokemonTypeService(PokemonTypeServiceTest.java:21)
+

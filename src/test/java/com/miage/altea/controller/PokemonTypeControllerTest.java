@@ -2,11 +2,8 @@ package com.miage.altea.controller;
 
 
 import com.miage.altea.bo.PokemonType;
-import com.miage.altea.service.PokemonTypeService;
+import com.miage.altea.service.PokemonTypeServiceImpl;
 import org.junit.jupiter.api.Test;
-import org.junit.runner.RunWith;
-import org.springframework.boot.test.context.SpringBootTest;
-import org.springframework.test.context.junit4.SpringRunner;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
@@ -18,7 +15,7 @@ public class PokemonTypeControllerTest {
 
     @Test
     void getPokemonType_shouldCallTheService(){
-        var service = mock(PokemonTypeService.class);
+        var service = mock(PokemonTypeServiceImpl.class);
         var controller = new PokemonTypeController(service);
 
         var pikachu = new PokemonType();
@@ -34,7 +31,7 @@ public class PokemonTypeControllerTest {
 
     @Test
     void getAllPokemonTypes_shouldCallTheService(){
-        var service = mock(PokemonTypeService.class);
+        var service = mock(PokemonTypeServiceImpl.class);
         var controller = new PokemonTypeController(service);
 
         controller.getAllPokemonTypes();

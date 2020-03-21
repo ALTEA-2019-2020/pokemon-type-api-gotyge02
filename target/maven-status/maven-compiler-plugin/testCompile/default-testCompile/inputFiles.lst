@@ -1,4 +1,5 @@
-/home/gotyge/Documents/1.ALTEA/2.Handcraft/tp-handcraft/src/test/java/JacksonDatabindTest.java
-/home/gotyge/Documents/1.ALTEA/2.Handcraft/tp-handcraft/src/test/java/com/miage/altea/repository/PokemonTypeRepositoryTest.java
-/home/gotyge/Documents/1.ALTEA/2.Handcraft/tp-handcraft/src/test/java/com/miage/altea/controller/PokemonTypeControllerTest.java
-/home/gotyge/Documents/1.ALTEA/2.Handcraft/tp-handcraft/src/test/java/DispatcherServletTest.java
+/home/gotyge/Documents/Dropbox/Université/M2 MIAGE/ALTEA/moi/pokemon-type-api-gotyge02/src/test/java/com/miage/altea/controller/PokemonTypeControllerTest.java
+/home/gotyge/Documents/Dropbox/Université/M2 MIAGE/ALTEA/moi/pokemon-type-api-gotyge02/src/test/java/com/miage/altea/repository/PokemonTypeRepositoryTest.java
+/home/gotyge/Documents/Dropbox/Université/M2 MIAGE/ALTEA/moi/pokemon-type-api-gotyge02/src/test/java/com/miage/altea/service/PokemonTypeServiceImplTest.java
+/home/gotyge/Documents/Dropbox/Université/M2 MIAGE/ALTEA/moi/pokemon-type-api-gotyge02/src/test/java/com/miage/altea/repository/TranslationRepositoryImplTest.java
+/home/gotyge/Documents/Dropbox/Université/M2 MIAGE/ALTEA/moi/pokemon-type-api-gotyge02/src/test/java/com/miage/altea/controller/PokemonTypeControllerIntegrationTest.java
