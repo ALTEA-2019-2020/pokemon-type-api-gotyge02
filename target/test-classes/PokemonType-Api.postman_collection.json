@@ -108,6 +108,38 @@
 				}
 			},
 			"response": []
+		},
+		{
+			"name": "Get from type",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Accept-Language",
+						"type": "text",
+						"value": "fr"
+					}
+				],
+				"url": {
+					"raw": "http://localhost:8080/pokemon-types/?types=bug,poison ",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"pokemon-types",
+						""
+					],
+					"query": [
+						{
+							"key": "types",
+							"value": "bug,poison "
+						}
+					]
+				}
+			},
+			"response": []
 		}
 	],
 	"protocolProfileBehavior": {}
