@@ -1,7 +1,7 @@
 package com.miage.altea.service;
 
 import com.miage.altea.bo.PokemonType;
-import com.miage.altea.repository.PokemonTypeRepository;
+import com.miage.altea.repository.PokemonTypeRepositoryImpl;
 import com.miage.altea.repository.TranslationRepository;
 import org.junit.jupiter.api.Test;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
@@ -27,7 +27,7 @@ class PokemonTypeServiceImplTest {
 
     @Test
     void pokemonTypeRepository_shouldBeCalled_whenFindById(){
-        var pokemonTypeRepository =mock(PokemonTypeRepository.class);
+        var pokemonTypeRepository =mock(PokemonTypeRepositoryImpl.class);
         var translationRepository = mock(TranslationRepository.class);
         var pokemonTypeService = new PokemonTypeServiceImpl(pokemonTypeRepository, translationRepository);
         pokemonTypeService.getPokemonFromId(25);
@@ -36,9 +36,9 @@ class PokemonTypeServiceImplTest {
 
     @Test
     void pokemonTypeRepository_shouldBeCalled_whenFindAll(){
-        var pokemonTypeRepository = mock(PokemonTypeRepository.class);
+        var pokemonTypeRepository = mock(PokemonTypeRepositoryImpl.class);
         var pokemonTypeService = new PokemonTypeServiceImpl();
-        pokemonTypeService.setPokemonTypeRepository(pokemonTypeRepository);
+        pokemonTypeService.setPokemonTypeRepositoryImpl(pokemonTypeRepository);
         pokemonTypeService.getAllPokemonTypes();
         verify(pokemonTypeRepository).findAllPokemonType();
     }
@@ -47,14 +47,14 @@ class PokemonTypeServiceImplTest {
     void pokemonTypeRepository_shouldBeAutowired_withSpring(){
         var context = new AnnotationConfigApplicationContext("com.miage.altea");
         var service = context.getBean(PokemonTypeServiceImpl.class);
-        assertNotNull(service.pokemonTypeRepository);
+        assertNotNull(service.pokemonTypeRepositoryImpl);
     }
 
     @Test
     void pokemonNames_shouldBeTranslated_usingLocaleResolver(){
         var pokemonTypeService = new PokemonTypeServiceImpl();
-        var pokemonTypeRepository = mock(PokemonTypeRepository.class);
-        pokemonTypeService.setPokemonTypeRepository(pokemonTypeRepository);
+        var pokemonTypeRepository = mock(PokemonTypeRepositoryImpl.class);
+        pokemonTypeService.setPokemonTypeRepositoryImpl(pokemonTypeRepository);
         when(pokemonTypeRepository.findPokemonTypeById(25)).thenReturn(new PokemonType());
         var translationRepository = mock(TranslationRepository.class);
         pokemonTypeService.setTranslationRepository(translationRepository);
@@ -68,8 +68,8 @@ class PokemonTypeServiceImplTest {
     @Test
     void allPokemonNames_shouldBeTranslated_usingLocaleResolver(){
         var pokemonTypeService = new PokemonTypeServiceImpl();
-        var pokemonTypeRepository = mock(PokemonTypeRepository.class);
-        pokemonTypeService.setPokemonTypeRepository(pokemonTypeRepository);
+        var pokemonTypeRepository = mock(PokemonTypeRepositoryImpl.class);
+        pokemonTypeService.setPokemonTypeRepositoryImpl(pokemonTypeRepository);
         var pikachu = new PokemonType();
         pikachu.setId(25);
         var raichu = new PokemonType();

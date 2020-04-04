@@ -6,15 +6,15 @@ import org.springframework.context.annotation.AnnotationConfigApplicationContext
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertNotNull;
 
-class PokemonTypeRepositoryTest {
+class PokemonTypeRepositoryImplTest {
 
-    private PokemonTypeRepository repository = new PokemonTypeRepository();
+    private PokemonTypeRepositoryImpl repository = new PokemonTypeRepositoryImpl();
 
     @Test
     void applicationContext_shouldLoadPokemonRepository(){
         var context = new AnnotationConfigApplicationContext("com.miage.altea.repository");
-        var repoByName = context.getBean("pokemonTypeRepository");
-        var repoByClass = context.getBean(PokemonTypeRepository.class);
+        var repoByName = context.getBean("pokemonTypeRepositoryImpl");
+        var repoByClass = context.getBean(PokemonTypeRepositoryImpl.class);
 
         assertEquals(repoByName, repoByClass);
         assertNotNull(repoByName);
